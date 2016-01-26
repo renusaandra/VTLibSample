@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C72D12A81C578E6C0030B2CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72D12A71C578E6C0030B2CF /* AppDelegate.swift */; };
+		C72D12AA1C578E6C0030B2CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72D12A91C578E6C0030B2CF /* ViewController.swift */; };
+		C72D12AD1C578E6C0030B2CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72D12AB1C578E6C0030B2CF /* Main.storyboard */; };
+		C72D12AF1C578E6C0030B2CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C72D12AE1C578E6C0030B2CF /* Assets.xcassets */; };
+		C72D12B21C578E6C0030B2CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72D12B01C578E6C0030B2CF /* LaunchScreen.storyboard */; };
+		C72D12BD1C578E6C0030B2CF /* SampleStoreWithLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72D12BC1C578E6C0030B2CF /* SampleStoreWithLibraryTests.swift */; };
+		C72D13021C57917E0030B2CF /* VTAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = C72D12EC1C57917E0030B2CF /* VTAddress.m */; };
+		C72D13031C57917E0030B2CF /* VTBaseTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = C72D12EE1C57917E0030B2CF /* VTBaseTransaction.m */; };
+		C72D13041C57917E0030B2CF /* VTBaseTransactionMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = C72D12F01C57917E0030B2CF /* VTBaseTransactionMethod.m */; };
+		C72D13051C57917E0030B2CF /* VTCardDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C72D12F21C57917E0030B2CF /* VTCardDetails.m */; };
+		C72D13061C57917E0030B2CF /* VTConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C72D12F41C57917E0030B2CF /* VTConfig.m */; };
+		C72D13071C57917E0030B2CF /* VTCustomerDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C72D12F61C57917E0030B2CF /* VTCustomerDetails.m */; };
+		C72D13081C57917E0030B2CF /* VTDirect.m in Sources */ = {isa = PBXBuildFile; fileRef = C72D12F81C57917E0030B2CF /* VTDirect.m */; };
+		C72D13091C57917E0030B2CF /* VTiOSAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C72D12FB1C57917E0030B2CF /* VTiOSAPI.m */; };
+		C72D130A1C57917E0030B2CF /* VTItemDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C72D12FD1C57917E0030B2CF /* VTItemDetails.m */; };
+		C72D130B1C57917E0030B2CF /* VTToken.m in Sources */ = {isa = PBXBuildFile; fileRef = C72D12FF1C57917E0030B2CF /* VTToken.m */; };
+		C72D130C1C57917E0030B2CF /* VTTransactionDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C72D13011C57917E0030B2CF /* VTTransactionDetails.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C72D12B91C578E6C0030B2CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C72D129C1C578E6C0030B2CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C72D12A31C578E6C0030B2CF;
+			remoteInfo = SampleStoreWithLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C72D12A41C578E6C0030B2CF /* SampleStoreWithLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleStoreWithLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C72D12A71C578E6C0030B2CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C72D12A91C578E6C0030B2CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C72D12AC1C578E6C0030B2CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C72D12AE1C578E6C0030B2CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C72D12B11C578E6C0030B2CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C72D12B31C578E6C0030B2CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C72D12B81C578E6C0030B2CF /* SampleStoreWithLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleStoreWithLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C72D12BC1C578E6C0030B2CF /* SampleStoreWithLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleStoreWithLibraryTests.swift; sourceTree = "<group>"; };
+		C72D12BE1C578E6C0030B2CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C72D12EB1C57917E0030B2CF /* VTAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VTAddress.h; path = include/VTAddress.h; sourceTree = "<group>"; };
+		C72D12EC1C57917E0030B2CF /* VTAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VTAddress.m; path = include/VTAddress.m; sourceTree = "<group>"; };
+		C72D12ED1C57917E0030B2CF /* VTBaseTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VTBaseTransaction.h; path = include/VTBaseTransaction.h; sourceTree = "<group>"; };
+		C72D12EE1C57917E0030B2CF /* VTBaseTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VTBaseTransaction.m; path = include/VTBaseTransaction.m; sourceTree = "<group>"; };
+		C72D12EF1C57917E0030B2CF /* VTBaseTransactionMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VTBaseTransactionMethod.h; path = include/VTBaseTransactionMethod.h; sourceTree = "<group>"; };
+		C72D12F01C57917E0030B2CF /* VTBaseTransactionMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VTBaseTransactionMethod.m; path = include/VTBaseTransactionMethod.m; sourceTree = "<group>"; };
+		C72D12F11C57917E0030B2CF /* VTCardDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VTCardDetails.h; path = include/VTCardDetails.h; sourceTree = "<group>"; };
+		C72D12F21C57917E0030B2CF /* VTCardDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VTCardDetails.m; path = include/VTCardDetails.m; sourceTree = "<group>"; };
+		C72D12F31C57917E0030B2CF /* VTConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VTConfig.h; path = include/VTConfig.h; sourceTree = "<group>"; };
+		C72D12F41C57917E0030B2CF /* VTConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VTConfig.m; path = include/VTConfig.m; sourceTree = "<group>"; };
+		C72D12F51C57917E0030B2CF /* VTCustomerDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VTCustomerDetails.h; path = include/VTCustomerDetails.h; sourceTree = "<group>"; };
+		C72D12F61C57917E0030B2CF /* VTCustomerDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VTCustomerDetails.m; path = include/VTCustomerDetails.m; sourceTree = "<group>"; };
+		C72D12F71C57917E0030B2CF /* VTDirect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VTDirect.h; path = include/VTDirect.h; sourceTree = "<group>"; };
+		C72D12F81C57917E0030B2CF /* VTDirect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VTDirect.m; path = include/VTDirect.m; sourceTree = "<group>"; };
+		C72D12F91C57917E0030B2CF /* VTiOSAPI-BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "VTiOSAPI-BridgingHeader.h"; path = "include/VTiOSAPI-BridgingHeader.h"; sourceTree = "<group>"; };
+		C72D12FA1C57917E0030B2CF /* VTiOSAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VTiOSAPI.h; path = include/VTiOSAPI.h; sourceTree = "<group>"; };
+		C72D12FB1C57917E0030B2CF /* VTiOSAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VTiOSAPI.m; path = include/VTiOSAPI.m; sourceTree = "<group>"; };
+		C72D12FC1C57917E0030B2CF /* VTItemDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VTItemDetails.h; path = include/VTItemDetails.h; sourceTree = "<group>"; };
+		C72D12FD1C57917E0030B2CF /* VTItemDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VTItemDetails.m; path = include/VTItemDetails.m; sourceTree = "<group>"; };
+		C72D12FE1C57917E0030B2CF /* VTToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VTToken.h; path = include/VTToken.h; sourceTree = "<group>"; };
+		C72D12FF1C57917E0030B2CF /* VTToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VTToken.m; path = include/VTToken.m; sourceTree = "<group>"; };
+		C72D13001C57917E0030B2CF /* VTTransactionDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VTTransactionDetails.h; path = include/VTTransactionDetails.h; sourceTree = "<group>"; };
+		C72D13011C57917E0030B2CF /* VTTransactionDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VTTransactionDetails.m; path = include/VTTransactionDetails.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C72D12A11C578E6C0030B2CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C72D12B51C578E6C0030B2CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C72D129B1C578E6B0030B2CF = {
+			isa = PBXGroup;
+			children = (
+				C72D12EA1C5791740030B2CF /* include */,
+				C72D12A61C578E6C0030B2CF /* SampleStoreWithLibrary */,
+				C72D12BB1C578E6C0030B2CF /* SampleStoreWithLibraryTests */,
+				C72D12A51C578E6C0030B2CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C72D12A51C578E6C0030B2CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C72D12A41C578E6C0030B2CF /* SampleStoreWithLibrary.app */,
+				C72D12B81C578E6C0030B2CF /* SampleStoreWithLibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C72D12A61C578E6C0030B2CF /* SampleStoreWithLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				C72D12A71C578E6C0030B2CF /* AppDelegate.swift */,
+				C72D12A91C578E6C0030B2CF /* ViewController.swift */,
+				C72D12AB1C578E6C0030B2CF /* Main.storyboard */,
+				C72D12AE1C578E6C0030B2CF /* Assets.xcassets */,
+				C72D12B01C578E6C0030B2CF /* LaunchScreen.storyboard */,
+				C72D12B31C578E6C0030B2CF /* Info.plist */,
+			);
+			path = SampleStoreWithLibrary;
+			sourceTree = "<group>";
+		};
+		C72D12BB1C578E6C0030B2CF /* SampleStoreWithLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				C72D12BC1C578E6C0030B2CF /* SampleStoreWithLibraryTests.swift */,
+				C72D12BE1C578E6C0030B2CF /* Info.plist */,
+			);
+			path = SampleStoreWithLibraryTests;
+			sourceTree = "<group>";
+		};
+		C72D12EA1C5791740030B2CF /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C72D12EB1C57917E0030B2CF /* VTAddress.h */,
+				C72D12EC1C57917E0030B2CF /* VTAddress.m */,
+				C72D12ED1C57917E0030B2CF /* VTBaseTransaction.h */,
+				C72D12EE1C57917E0030B2CF /* VTBaseTransaction.m */,
+				C72D12EF1C57917E0030B2CF /* VTBaseTransactionMethod.h */,
+				C72D12F01C57917E0030B2CF /* VTBaseTransactionMethod.m */,
+				C72D12F11C57917E0030B2CF /* VTCardDetails.h */,
+				C72D12F21C57917E0030B2CF /* VTCardDetails.m */,
+				C72D12F31C57917E0030B2CF /* VTConfig.h */,
+				C72D12F41C57917E0030B2CF /* VTConfig.m */,
+				C72D12F51C57917E0030B2CF /* VTCustomerDetails.h */,
+				C72D12F61C57917E0030B2CF /* VTCustomerDetails.m */,
+				C72D12F71C57917E0030B2CF /* VTDirect.h */,
+				C72D12F81C57917E0030B2CF /* VTDirect.m */,
+				C72D12F91C57917E0030B2CF /* VTiOSAPI-BridgingHeader.h */,
+				C72D12FA1C57917E0030B2CF /* VTiOSAPI.h */,
+				C72D12FB1C57917E0030B2CF /* VTiOSAPI.m */,
+				C72D12FC1C57917E0030B2CF /* VTItemDetails.h */,
+				C72D12FD1C57917E0030B2CF /* VTItemDetails.m */,
+				C72D12FE1C57917E0030B2CF /* VTToken.h */,
+				C72D12FF1C57917E0030B2CF /* VTToken.m */,
+				C72D13001C57917E0030B2CF /* VTTransactionDetails.h */,
+				C72D13011C57917E0030B2CF /* VTTransactionDetails.m */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C72D12A31C578E6C0030B2CF /* SampleStoreWithLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C72D12C11C578E6C0030B2CF /* Build configuration list for PBXNativeTarget "SampleStoreWithLibrary" */;
+			buildPhases = (
+				C72D12A01C578E6C0030B2CF /* Sources */,
+				C72D12A11C578E6C0030B2CF /* Frameworks */,
+				C72D12A21C578E6C0030B2CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleStoreWithLibrary;
+			productName = SampleStoreWithLibrary;
+			productReference = C72D12A41C578E6C0030B2CF /* SampleStoreWithLibrary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C72D12B71C578E6C0030B2CF /* SampleStoreWithLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C72D12C41C578E6C0030B2CF /* Build configuration list for PBXNativeTarget "SampleStoreWithLibraryTests" */;
+			buildPhases = (
+				C72D12B41C578E6C0030B2CF /* Sources */,
+				C72D12B51C578E6C0030B2CF /* Frameworks */,
+				C72D12B61C578E6C0030B2CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C72D12BA1C578E6C0030B2CF /* PBXTargetDependency */,
+			);
+			name = SampleStoreWithLibraryTests;
+			productName = SampleStoreWithLibraryTests;
+			productReference = C72D12B81C578E6C0030B2CF /* SampleStoreWithLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C72D129C1C578E6C0030B2CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Renusa Andra";
+				TargetAttributes = {
+					C72D12A31C578E6C0030B2CF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C72D12B71C578E6C0030B2CF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C72D12A31C578E6C0030B2CF;
+					};
+				};
+			};
+			buildConfigurationList = C72D129F1C578E6C0030B2CF /* Build configuration list for PBXProject "SampleStoreWithLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C72D129B1C578E6B0030B2CF;
+			productRefGroup = C72D12A51C578E6C0030B2CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C72D12A31C578E6C0030B2CF /* SampleStoreWithLibrary */,
+				C72D12B71C578E6C0030B2CF /* SampleStoreWithLibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C72D12A21C578E6C0030B2CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72D12B21C578E6C0030B2CF /* LaunchScreen.storyboard in Resources */,
+				C72D12AF1C578E6C0030B2CF /* Assets.xcassets in Resources */,
+				C72D12AD1C578E6C0030B2CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C72D12B61C578E6C0030B2CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C72D12A01C578E6C0030B2CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72D130C1C57917E0030B2CF /* VTTransactionDetails.m in Sources */,
+				C72D13091C57917E0030B2CF /* VTiOSAPI.m in Sources */,
+				C72D13071C57917E0030B2CF /* VTCustomerDetails.m in Sources */,
+				C72D13081C57917E0030B2CF /* VTDirect.m in Sources */,
+				C72D13051C57917E0030B2CF /* VTCardDetails.m in Sources */,
+				C72D12AA1C578E6C0030B2CF /* ViewController.swift in Sources */,
+				C72D13061C57917E0030B2CF /* VTConfig.m in Sources */,
+				C72D13031C57917E0030B2CF /* VTBaseTransaction.m in Sources */,
+				C72D13041C57917E0030B2CF /* VTBaseTransactionMethod.m in Sources */,
+				C72D13021C57917E0030B2CF /* VTAddress.m in Sources */,
+				C72D12A81C578E6C0030B2CF /* AppDelegate.swift in Sources */,
+				C72D130A1C57917E0030B2CF /* VTItemDetails.m in Sources */,
+				C72D130B1C57917E0030B2CF /* VTToken.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C72D12B41C578E6C0030B2CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72D12BD1C578E6C0030B2CF /* SampleStoreWithLibraryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C72D12BA1C578E6C0030B2CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C72D12A31C578E6C0030B2CF /* SampleStoreWithLibrary */;
+			targetProxy = C72D12B91C578E6C0030B2CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C72D12AB1C578E6C0030B2CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C72D12AC1C578E6C0030B2CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C72D12B01C578E6C0030B2CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C72D12B11C578E6C0030B2CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C72D12BF1C578E6C0030B2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C72D12C01C578E6C0030B2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C72D12C21C578E6C0030B2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SampleStoreWithLibrary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/lib",
+				);
+				OTHER_LDFLAGS = "";
+				PRELINK_LIBS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SampleStoreWithLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$SOURCE_ROOT/include/VTiOSAPI-BridgingHeader.h";
+			};
+			name = Debug;
+		};
+		C72D12C31C578E6C0030B2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SampleStoreWithLibrary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/lib",
+				);
+				OTHER_LDFLAGS = "";
+				PRELINK_LIBS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SampleStoreWithLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$SOURCE_ROOT/include/VTiOSAPI-BridgingHeader.h";
+			};
+			name = Release;
+		};
+		C72D12C51C578E6C0030B2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SampleStoreWithLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SampleStoreWithLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleStoreWithLibrary.app/SampleStoreWithLibrary";
+			};
+			name = Debug;
+		};
+		C72D12C61C578E6C0030B2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SampleStoreWithLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SampleStoreWithLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleStoreWithLibrary.app/SampleStoreWithLibrary";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C72D129F1C578E6C0030B2CF /* Build configuration list for PBXProject "SampleStoreWithLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C72D12BF1C578E6C0030B2CF /* Debug */,
+				C72D12C01C578E6C0030B2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C72D12C11C578E6C0030B2CF /* Build configuration list for PBXNativeTarget "SampleStoreWithLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C72D12C21C578E6C0030B2CF /* Debug */,
+				C72D12C31C578E6C0030B2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C72D12C41C578E6C0030B2CF /* Build configuration list for PBXNativeTarget "SampleStoreWithLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C72D12C51C578E6C0030B2CF /* Debug */,
+				C72D12C61C578E6C0030B2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C72D129C1C578E6C0030B2CF /* Project object */;
+}
